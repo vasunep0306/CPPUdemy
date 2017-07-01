@@ -2,7 +2,7 @@
 
 using namespace std;
 
-main () {
+int main () {
 
     string text1, text2, text3;
 
@@ -15,4 +15,6 @@ main () {
 
     cout << "The combination of the three is :" << endl;
     cout << text1 << " " << text2 << " " << text3;
+
+    return 0;
 }
